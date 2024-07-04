@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    font-family: Roboto Mono;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42.2px;
+    text-decoration: none;
+    margin-left: 60px;
+    color: #000000;
+    text-shadow: 0px 7px 4px #371AAB99;
+}
+.container{
+display: flex;
+align-items: center;
+}
+ul{
+list-style-type: none;
+display: flex;
+}
+.i1{
+padding-left: 250px;
+margin-top: 120px;
+}
+.row{
+margin-top: 120px;
+}
+.a1{
+margin-left: 350px;
+}
+.i2{
+width: 550px;
+margin-left: 200px;
+margin-right: 50px;
+margin-top: 100px;
+}
+.card,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9{
+width: 130px;
+height: 130px;
+}
+.card{
+    box-shadow: 0px 8px 24px 0px #2FC63C;
+    margin-top: 80px;
+}
+.card2{
+    box-shadow: 0px 7px 29px 0px #64646F33;
+    margin-top: 80px;
+}
+.card3{
+    box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+    margin-top: 80px;
+}
+.card4{
+    box-shadow: 0px 5px 15px 0px #00000059;
+}
+.card5{
+    box-shadow: 0px 1px 4px 0px #000000AB;
+}
+.card6{
+    box-shadow: 0px 3px 8px 0px #FF0000;
+}
+.card7{
+    box-shadow: 0px 8px 24px 0px #007FFDEB;
+}
+.card8{
+    box-shadow: 0px 7px 36px 0px #64646FA8;
+}
+.card9{
+    box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+}
+.container2{
+display: flex;
+}
+.row2{
+display: flex;
+gap: 100px;
+flex-wrap: wrap;
+}
